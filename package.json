@@ -7,6 +7,7 @@
     "test": "npm run build && npm run build_tests && jasmine",
     "tsc": "tsc",
     "typings": "typings",
+    "lint": "tslint src/**.ts",
     "build_tests": "rm -rf spec-js/* && tsc --project ./spec --pretty",
     "build": "rm -rf dist/* && tsc"
   },
@@ -27,6 +28,7 @@
   "devDependencies": {
     "jasmine": "^2.4.1",
     "jasmine-core": "^2.4.1",
+    "tslint": "^3.6.0",
     "typescript": "^1.8.9",
     "typings": "^0.7.9"
   }

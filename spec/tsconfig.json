@@ -9,7 +9,6 @@
     },
     "files": [
         "../typings/main.d.ts",
-		"helpers/test-helper.ts",
         "lolspec.ts"
     ]
 }

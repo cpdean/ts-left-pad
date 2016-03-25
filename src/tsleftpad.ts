@@ -1,7 +1,7 @@
 let leftpad = function(str: string, len: number, ch = " "): string {
   str = String(str);
 
-  var i = -1;
+  let i = -1;
 
   len = len - str.length;
 
@@ -10,5 +10,5 @@ let leftpad = function(str: string, len: number, ch = " "): string {
   }
 
   return str;
-}
+};
 export = leftpad;
