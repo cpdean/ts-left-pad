@@ -1,6 +1,9 @@
 ts-left-pad
 ===========
 
+[![Build Status](https://travis-ci.org/cpdean/ts-left-pad.svg?branch=master)](https://travis-ci.org/cpdean/ts-left-pad)
+
+
 THE ONLY TYPE SAFE WAY<sup>[1](#what1)</sup> TO PAD A STRING ON THE LEFT OF THE STRING
 
 ``` javascript
