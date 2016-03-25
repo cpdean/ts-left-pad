@@ -1,0 +1,4 @@
+ts-left-pad
+===========
+
+THE ONLY TYPE SAFE WAY TO PAD A STRING ON THE LEFT OF THE STRING
