@@ -4,8 +4,11 @@
   "description": "the only type safe way to pad a string on the left-handed side of the string",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"
+    "test": "npm run build && npm run build_tests && jasmine",
+    "tsc": "tsc",
+    "typings": "typings",
+    "build_tests": "rm -rf spec-js/* && tsc --project ./spec --pretty",
+    "build": "rm -rf dist/* && tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/cpdean/ts-left-pad/issues"
   },
-  "homepage": "https://github.com/cpdean/ts-left-pad#readme"
+  "homepage": "https://github.com/cpdean/ts-left-pad#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
+  }
 }

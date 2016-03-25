@@ -13,4 +13,16 @@ theleft("goat", 10, ".")
 // '......goat'
 ```
 
-<a name="what1">1</a>: Wanted a silly template project to play with typescript tooling: travis, tests, publishing for npm usage.
+INSTALLING
+==========
+
+``` bash
+npm install ts-left-pad
+```
+
+NOTES
+=====
+
+As it turns out, I think the ts compiler removes stuff that would handle type-checking at runtime, so coding defensively against the user at runtime might be a wiser choice.
+
+<a name="what1">1</a>: Wanted a template project to play with typescript tooling: travis, tests, publishing for npm usage.
